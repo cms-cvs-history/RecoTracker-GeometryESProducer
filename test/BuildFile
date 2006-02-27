@@ -1,0 +1,6 @@
+<use name=RecoTracker/GeometryESProducer>
+<use name=FWCore/Framework>                                   
+
+<flags SEAL_PLUGIN_NAME="testRecoTrackerGeometryESProducer">
+<library file=TrackerRecoGeometryAnalyzer.cc name=testRecoTrackerGeometryESProducer>
+</library>
