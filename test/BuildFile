@@ -2,6 +2,6 @@
 <use name=TrackingTools/DetLayers>
 <use name=FWCore/Framework>                                   
 
-<flags SEAL_PLUGIN_NAME="testRecoTrackerGeometryESProducer">
+<flags EDM_PLUGIN=1>
 <library file=TrackerRecoGeometryAnalyzer.cc name=testRecoTrackerGeometryESProducer>
 </library>
